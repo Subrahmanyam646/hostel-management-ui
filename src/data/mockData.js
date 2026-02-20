@@ -1,0 +1,80 @@
+export const hostelSummary = {
+  totalFloors: 4,
+  totalRooms: 36,
+  totalBeds: 126,
+  occupiedBeds: 92,
+  availableBeds: 34,
+  currentMonthCollection: 246300,
+  pendingAmount: 38450,
+};
+
+export const rooms = [
+  {
+    id: 'RM-101',
+    floor: 1,
+    roomNumber: '101',
+    roomType: 'Standard',
+    capacity: 3,
+    occupied: 2,
+    monthlyRentPerBed: 5500,
+    amenities: ['Attached Washroom', 'Fan'],
+    genderWing: 'Boys',
+    paymentStatus: 'Partial',
+  },
+  {
+    id: 'RM-102',
+    floor: 1,
+    roomNumber: '102',
+    roomType: 'Deluxe',
+    capacity: 2,
+    occupied: 2,
+    monthlyRentPerBed: 6800,
+    amenities: ['AC', 'Attached Washroom', 'Wi-Fi'],
+    genderWing: 'Girls',
+    paymentStatus: 'Paid',
+  },
+  {
+    id: 'RM-205',
+    floor: 2,
+    roomNumber: '205',
+    roomType: 'Dorm',
+    capacity: 6,
+    occupied: 4,
+    monthlyRentPerBed: 4300,
+    amenities: ['Wi-Fi', 'Common Washroom'],
+    genderWing: 'Boys',
+    paymentStatus: 'Pending',
+  },
+  {
+    id: 'RM-307',
+    floor: 3,
+    roomNumber: '307',
+    roomType: 'Standard',
+    capacity: 4,
+    occupied: 3,
+    monthlyRentPerBed: 5100,
+    amenities: ['Attached Washroom', 'Study Table'],
+    genderWing: 'Girls',
+    paymentStatus: 'Partial',
+  },
+  {
+    id: 'RM-401',
+    floor: 4,
+    roomNumber: '401',
+    roomType: 'Suite',
+    capacity: 2,
+    occupied: 1,
+    monthlyRentPerBed: 8500,
+    amenities: ['AC', 'Attached Washroom', 'Balcony', 'Wi-Fi'],
+    genderWing: 'Co-ed',
+    paymentStatus: 'Paid',
+  },
+];
+
+export const monthlyPayments = [
+  { month: 'Jan 2026', paidTenants: 88, partialTenants: 9, pendingTenants: 13, collection: 226000 },
+  { month: 'Feb 2026', paidTenants: 90, partialTenants: 6, pendingTenants: 10, collection: 239200 },
+  { month: 'Mar 2026', paidTenants: 84, partialTenants: 12, pendingTenants: 15, collection: 246300 },
+];
+
+export const paymentStatusLegend = ['Paid', 'Partial', 'Pending'];
