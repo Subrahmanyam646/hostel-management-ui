@@ -15,7 +15,14 @@ A React + Vite starter UI for a **hostel management system** with backend endpoi
 npm install
 npm run dev
 ```
+## Build & Quality
 
+```bash
+npm run typecheck
+npm run lint
+npm run build
+```
+=======
 ## Build
 
 ```bash
